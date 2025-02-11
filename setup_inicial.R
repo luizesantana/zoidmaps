@@ -22,16 +22,10 @@ usethis::use_package("stringr")
 usethis::use_git()
 usethis::use_github()
 devtools::load_all()
-
-
-
-
-usethis::use_git()
-devtools::load_all()
 devtools::check()
 devtools::install()
 devtools::document()
-usethis::use_github()
+
 usethis::use_readme_rmd()
 devtools::build_readme()
 
