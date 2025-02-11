@@ -17,4 +17,4 @@ usethis::use_package("sf")
 usethis::use_package("stringr")
 
 ################
-#
+usethis::use_git()
