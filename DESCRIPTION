@@ -1,0 +1,17 @@
+Package: zoidmaps  # Nome do pacote (sem espaços ou acentos)
+Title: Gerar mapas do Brasil 
+Version: 0.0.0.9000
+Authors@R: 
+  person("Seu Nome", "Seu Sobrenome", email = "seu@email.com", role = c("aut", "cre"))
+Description: Pacote para geração de mapas e gráficos climáticos.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    geobr,
+    ggplot2,
+    scales,
+    sf,
+    stringr
+RoxygenNote: 7.3.2
